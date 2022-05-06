@@ -2,7 +2,7 @@
 ####################################
 #
 # Backup script for my Linux computer
-# Last update: 05/05/2020
+# Last update: 06/05/2020
 #
 ####################################
 
