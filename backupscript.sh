@@ -22,7 +22,7 @@ dest="/home/lemalgache"
 # Create archive filename.
 day=$(date +%A)
 hostname=$(hostname -s)
-archive_file="$hostname-$day.tgz"
+archive_file="backup-archive.tgz"
 
 # Print start status message.
 echo "Backing up $backup_files to $dest/$archive_file"
