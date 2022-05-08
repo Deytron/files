@@ -2,7 +2,7 @@
 ####################################
 #
 # Backup script for my Linux computer
-# Last update: 06/05/2020
+# Last update: 08/05/2020
 #
 ####################################
 
@@ -14,7 +14,11 @@ fi
 
 cd /home/lemalgache
 # Folders to backup
-backup_files="./vmware ./Vidéos ./Téléchargements ./Images ./Games ./Documents ./kmail_backup-05052022.zip ./.zshrc ./.zsh_history ./iourc.txt ./.ssh .steam/steam/skins/Metro\ 4.4/ ./.local/share/dolphin-emu ./.local/share/FasterThanLight ./.local/share/IntoTheBreach ./.local/share/VVVVVV ./.local/share/yuzu /etc/wireguard/ ./.config/BetterDiscord/plugins/ "
+backup_files="./vmware ./Vidéos ./Téléchargements ./Images ./Games ./Documents ./kmail_backup-05052022.zip \
+  ./.zshrc ./.zsh_history ./iourc.txt ./.ssh .steam/steam/skins/Metro\ 4.4/ \
+  ./.local/share/dolphin-emu ./.local/share/FasterThanLight ./.local/share/IntoTheBreach \
+  ./.local/share/VVVVVV ./.local/share/yuzu /etc/wireguard/ ./.config/BetterDiscord/plugins/ \
+  ./.config/PCSX2/roms/"
 
 # Where to backup to.
 dest="/home/lemalgache"

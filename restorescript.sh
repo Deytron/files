@@ -1,8 +1,8 @@
 #!/bin/bash
 ####################################
 #
-# Backup script for my Linux computer
-# Last update: 05/05/2020
+# Restore script for my Linux computer
+# Last update: 08/05/2020
 #
 ####################################
 
