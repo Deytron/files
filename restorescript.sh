@@ -15,7 +15,7 @@ PACKAGES="betterdiscord-installer bitwarden cabextract conan containerd cpupower
  mono moonlight-qt nano neofetch nodejs notion-app npm obs-studio onlyoffice-bin pcsx2 polymc polypane \
  proton-ge-custom-bin proton-caller qt6-wayland remmina remmina-plugin-rdesktop seahorse spotify-qt spotifyd sshpass \
  teams-for-linux terraform tigervnc tlpui tree ubridge vmware-workstation vpcs vvvvvv wine winetricks wireguard-tools \
- wol xdotool youtube-dl-git yuzu-early-access plasma-wayland-session xorg-xwayland visual-studio-code-bin"
+ wol xdotool youtube-dl-git yuzu-early-access plasma-wayland-session egl-wayland xorg-xwayland visual-studio-code-bin yakuake"
 
 # Check if script is running as sudo
 if [ "$EUID" -ne 0 ]
@@ -47,6 +47,7 @@ git clone https://github.com/Jicay/java-test.git
 git clone https://ynov.01-edu.org/git/RomainRanaivoson/challenge-js-bordeaux-all-available.git
 git clone https://ynov.01-edu.org/git/RomainRanaivoson/piscine-docker.git
 git clone https://github.com/Deytron/web-cv.git
+git clone https://github.com/Deytron/kube-tp.git
 
 # Tar backup archive
 cd /home/lemalgache/
