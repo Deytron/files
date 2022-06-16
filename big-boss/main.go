@@ -7,9 +7,9 @@ import (
 )
 
 func main() {
-	r := gin.Default()
-	r.GET("/", func(c *gin.Context) {
-		c.String(http.StatusOK, "Boss, I'm glad to see you!")
-	})
-	r.Run() // listen and serve on 0.0.0.0:8080 (for windows "localhost:8080")
+	router := gin.Default()
+	router.StaticFileFS("./index.html", "./index.html", http.Dir("index"))
+
+	// Listen and serve on 0.0.0.0:8080
+	router.Run(":8080")
 }
