@@ -8,10 +8,10 @@ import (
 
 func main() {
 	r := gin.Default()
-	r.Static("./", "./")
+	r.Static("./", "./html")
 	r.LoadHTMLGlob("*.html")
 	r.GET("/", func(c *gin.Context) {
-		c.HTML(http.StatusOK, "index.html", nil)
+		c.HTML(http.StatusOK, "./html/index.html", nil)
 	})
 	r.Run()
 }
